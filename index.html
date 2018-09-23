@@ -1,0 +1,170 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>The Rag Blog</title>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<link href="default.css" rel="stylesheet" type="text/css" />
+<script src="js/jquery-3.3.1.min.js" type="text/javascript"></script>
+<script src="js/script.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="header">
+  <h1><a href="#">Тестовый сайт</a></h1>
+    <h2 class="but"><a onclick="my_func()" class="new_ex_class prev" title="perehod" >Выполнить функцию</a></h2>
+<div id="d_menu">
+<p>пункт 1</p>
+<p>пункт 2</p>
+<p>пункт 3</p>
+<p>пункт 4</p>
+<p>пункт 5</p>
+</div>
+	</div>
+<div id="content">
+	<div id="on-top">Hello world </div>
+  <div id="archives" class="gbox">
+    <h2 name="pref-string" class="heading">Архив</h2>
+	
+    <div id="my_div" class="content">
+
+      <ul style="border:1px solid red; padding:5px" class="dis" id="lll">
+        
+        <li><a href="#">Январь 2013</a> (31)</li>
+		<li id = "id" class="one" name ="str"><a href="http://yandex.ru">Февраль</a> (7)</li>
+        <li><a href="#">Декабрь 2013</a> (31)</li>
+        <li><a href="#">Ноябрь 2013</a> (30)</li>
+        <li><a href="#">Октябрь 2013</a> (31)</li>
+      </ul>
+    </div>
+  </div>
+  <div id="posts">
+    <div class="post">
+	<div id = "result" style="border:1px solid #074776; width:300px; ">
+	
+	</div>
+      <h2  class="title"><p>Добро пожаловать на тестовую страницу</p>
+	  </h2>
+      <h3 class="posted">Небольшой текст для примера</h3>
+      <div class="story">
+	  <!--<p>hello</p>-->
+        <p>JavaScript — прототипно-ориентированный сценарный язык программирования. Является диалектом языка ECMAScript[~ 1].
+
+JavaScript обычно используется как встраиваемый язык для программного доступа к объектам приложений. Наиболее широкое применение находит в браузерах как язык сценариев для придания интерактивности веб-страницам.
+
+Основные архитектурные черты: динамическая типизация, слабая типизация, автоматическое управление памятью, прототипное программирование, функции как объекты первого класса.</p>
+      </div>
+      <div class="meta">
+        <p>Категория <a href="#" class="category">Без категории</a> | <a href="#" class="comment">1 Комментарий &raquo;</a></p>
+      </div>
+    </div>
+	
+    <div id="for_parent" class="post">
+	
+      <h2 class="title">Изображения и списки</h2>
+      <h3 class="posted">Опубликовано 1 Января 2013 г.</h3>
+	  <p>
+		  <img id="my_text" src="images/01.jpg" width="100px">
+		  <img src="images/02.jpg" width="100px">
+		  <img src="images/03.jpg" width="100px">
+	  </p>
+	  <p>
+		  <img id="my_text" src="images/01.jpg" width="100px">
+		  <img src="images/02.jpg" width="100px">
+		  <img src="images/03.jpg" width="100px">
+	  </p>
+      <div data-newattr="fdgdfg" class="story">
+        <p>Нумерованный список:</p>
+        <ol>
+          <li id="start"><a href="#">Пункт 1.</a>
+				<ol>
+		          <li><a href="#">Пункт 1</a>
+					<ol>
+			          <li><a href="#">Пункт 1</a>
+						<ol>
+				          <li><a href="#">Пункт 1.</a></li>
+				          <li><a href="#">Пункт 2.</a></li>
+				          <li><a href="#"><strong>Пункт 3.</strong></a></li>
+				        </ol>
+					  </li>
+			          <li><a href="#">Пункт 2.</a></li>
+			          <li><a href="#">Пункт 3.</a></li>
+			        </ol>
+				  </li>
+		          <li><a href="#">Пункт 2.</a></li>
+		          <li><a href="#">Пункт 3.</a></li>
+		        </ol>
+		  </li>
+          <li><a href="#">Пункт 2.</a></li>
+          <li><a href="#">Пункт 3.</a></li>
+        </ol>
+      </div>
+	  
+      <div class="meta">
+        <p>Категория <a href="#" class="category">Без категории</a> | <a href="#" class="comment">1 Комментарий &raquo;</a></p>
+      </div>
+	  
+	  Текст последнего дочернего узла
+    </div>
+	<p><span">Следующий братский элемент</span></p>
+  </div>
+  <div id="search" class="gbox">
+    <h2 class="heading">Поиск</h2>
+    <div class="content">
+      <form class="new_class" name="my_name" method="get" action="http://yandex.ru">
+        <div>
+          <input type="text"  id="textfield1" name="textfield1" value="" size="18" />
+		  Выделить четные<input onchange="get_h1()" value="1" type="radio" name="radio"/><br />
+		  Выделить не четные <input onchange="get_h2()" value="2"  type="radio" name="radio"/><br />
+		  Снять выделение  <input onchange="get_selection()" value="3"  type="radio" name="radio"/>
+		  
+		  Чекбокс 1<input onchange="my_func()" type="checkbox" value="1" name="radio"/><br />
+		  Чекбокс 2<input disabled="true" onchange="my_func()"  type="checkbox" value="2" name="radio"/><br />
+		  Чекбокс 3<input onchange="my_func()"  type="checkbox" value="3" name="radio"/>
+		  
+		  <select  name="sel">
+		  	<option value="one">ONE</option>
+			<option value="two">TWO</option>
+			<option value="three">three</option>
+			<option value="four">FOUR</option>
+		  </select>
+          <br /><input type="image"  name="submit1" value="Search" />
+		  <input type="button" onclick="get_sel()"  name="submit2" value="button" />
+		  <input type="reset" onclick="get_res()"  name="reset" value="reset" />
+        </div>
+      </form>
+    </div>
+  </div>
+  <div id="pages" class="gbox">
+    <h2 class="heading">Страницы</h2>
+    <div class="content">
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Фото</a></li>
+        <li><a href="#">Видео</a></li>
+        <li><a href="#">О нас</a></li>
+        <li><a href="#">Контакты</a></li>
+      </ul>
+	  
+    </div>
+  </div>
+  <div id="categories" class="gbox">
+    <h2 class="heading">Категория</h2>
+    <div class="content">
+      <ul>
+        <li><a href="#">JavaScript</a></li>
+        <li><a href="#">PHP</a></li>
+        <li><a href="#">HTML</a></li>
+        <li><a href="#">CSS</a></li>
+        <li><a href="#">FLASH</a></li>
+        <li><a href="#">ActionScript</a></li>
+      </ul>
+    </div>
+  </div>
+  
+  <div style="clear: both; height: 1px;"></div>
+</div>
+<div class="heading" id="footer">
+  <p>Copyright &copy; 2013 Тестовая страница
+</div>
+<p style="border:2px solid green;height:50px;width=300px"> </p>
+</body>
+</html>
